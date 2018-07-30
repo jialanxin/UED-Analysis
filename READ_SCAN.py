@@ -5,5 +5,7 @@ def read_scan(folderpath, filestem='.tif', hotpixel=0, flag=1, AG=np.ones(1,1024
     n = []
     timestamp = []
     posi0=[]
-    for i in range()
-
+    for i in listing:
+        if os.path.splitext(i)[1] == filestem:
+            n.append(i)
+    a = 
